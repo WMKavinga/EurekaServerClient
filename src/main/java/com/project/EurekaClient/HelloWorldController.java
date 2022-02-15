@@ -10,6 +10,6 @@ public class HelloWorldController {
     @GetMapping("/hello-worlds/{name}")
     public String getHelloWorld (@PathVariable String name)
     {
-        return "Hello World "+name;
+        return "Hello World Client 1 "+name;
     }
 }
